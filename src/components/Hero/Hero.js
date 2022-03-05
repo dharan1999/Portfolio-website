@@ -19,7 +19,7 @@ const Hero = (props) => (
       Hi <GiHand />, My name is Dharan Thaker. I am a Software Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
       </SectionText>
 
-      <Button onClick= { () => window.location = 'https://drive.google.com/file/d/1bqACClMx9A7ilp4B3ijoOOHiJcHkb688/view?usp=sharing'}>
+      <Button onClick= { () => window.location = 'https://drive.google.com/file/d/17KYG8pKv2BEqijL-3o7xrwwRoFOzjkJg/view?usp=sharing'}>
         My Resume
       </Button>
     </LeftSection>
