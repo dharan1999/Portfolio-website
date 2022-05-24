@@ -12,11 +12,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-          Welcome TO <br />
-          My Personal Portfolio
+         Hi <GiHand />, 
+           I'M <br />
+          DHARAN THAKER 
       </SectionTitle>
       <SectionText>
-      Hi <GiHand />, My name is Dharan Thaker. I am a Software Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
+      I am a Software Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
       </SectionText>
 
       <Button onClick= { () => window.location = 'https://drive.google.com/file/d/17KYG8pKv2BEqijL-3o7xrwwRoFOzjkJg/view?usp=sharing'}>

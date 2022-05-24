@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Reminiscence',
+    description: "Reminiscence is a MERN stack application that allows users to to post interesting events happened in their lives. ",
+      image: '/images/Remi.png',
+      tags: ['MongoDB', 'React.js', 'Node.js', 'Express.js'],
+    source: 'https://reminiscence-project-alpha.netlify.app/',
+   // visit: 'https://github.com/dharan1999/Seochu',
+   // video: 'https://www.youtube.com/watch?v=n_HK2j72JY8&t=58s',
+    id: 0,
+  },
+  {
     title: 'Seochu',
     description: "SEOCHU is an NLP powered web service which helps your website improve its SEO ranking drastically. It crawls through your website pages individually and suggests the names and places of keywords which on adding can improve your website’s SEO. It even suggests backlinks by mining through the area of interest of your website. ",
       image: '/images/Seochu.png',
@@ -7,15 +17,6 @@ export const projects = [
     source: 'http://seochu.herokuapp.com/',
     visit: 'https://github.com/dharan1999/Seochu',
     video: 'https://www.youtube.com/watch?v=n_HK2j72JY8&t=58s',
-    id: 0,
-  },
-  {
-    title: 'Inception',
-    description:"Inception is an online platform which renders a place where start-up aspirants can pitch their ideas, collaborate with likeminded people and make their perception into reality. It also incorporates the functionality of seeking investors who might be willing to invest in startups, from the platform itself. ",
-    image: '/images/Inc.png',
-    tags: ['Php', 'JavaScript','React'],
-    source: 'https://drive.google.com/file/d/1FEAcm5ZytjoeQchKtx-FhJJNv8TKSuUr/view?usp=sharing',
-    visit: 'https://github.com/dharan1999/Inception',
     id: 1,
   },
   {
@@ -28,13 +29,23 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'Inception',
+    description:"Inception is an online platform which renders a place where start-up aspirants can pitch their ideas, collaborate with likeminded people and make their perception into reality. It also incorporates the functionality of seeking investors who might be willing to invest in startups, from the platform itself. ",
+    image: '/images/Inc.png',
+    tags: ['Php', 'JavaScript','React'],
+    source: 'https://drive.google.com/file/d/1FEAcm5ZytjoeQchKtx-FhJJNv8TKSuUr/view?usp=sharing',
+    visit: 'https://github.com/dharan1999/Inception',
+    id: 3,
+  },
+ 
+  {
     title: 'Covid-fighters',
     description: "So I had a random thought of learning the React library out of mere boredom, which later turned out to be so much fun and made me so much inquisitive about the Library in a short span of time. So here is my sincere effort towards React.js. I built a Covid-19 web app that renders global as well as country-wise data of the number of Patients who are constantly fighting for their lives across the planet. There are fine, clear, and interactive Data Visualizations in the app to take on board the Statistics. ",
     image: '/images/Covid1.png',
     tags: ['React','RESTApi'],
     source: 'https://covid-fighters.web.app/',
     visit: 'https://github.com/dharan1999/covid-fighters',
-    id: 3,
+    id: 4,
   },
 ];
 
