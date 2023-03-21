@@ -20,7 +20,7 @@ const Hero = (props) => (
       I am a Software Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
       </SectionText>
 
-      <Button onClick= { () => window.location = 'https://drive.google.com/file/d/17KYG8pKv2BEqijL-3o7xrwwRoFOzjkJg/view?usp=sharing'}>
+      <Button onClick= { () => window.location = 'https://drive.google.com/file/d/1DL9Nq93UaDue3G5dPUIx2Go8G5VXXU-I/view?usp=sharing'}>
         My Resume
       </Button>
     </LeftSection>
