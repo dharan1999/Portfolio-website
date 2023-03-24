@@ -39,7 +39,7 @@ export const Experience = () => {
   ];
 
   return (
-    <section className="experience background-tint" id="project">
+    <section className="experience background-tint" id="experience">
       <Container>
         <Row>
           <Col size={12}>
