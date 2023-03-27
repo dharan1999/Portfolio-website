@@ -13,7 +13,7 @@ export const Experience = () => {
   const projects = [
     {
       title: "OnePrism",
-      description: "Full Stack Developer",
+      description: "Frontend Developer",
       imgUrl: projImg1,
       companyName: "ONEPRISM",
       period: "Sept 2020 - July 2021",
