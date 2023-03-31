@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import projImg6 from "../assets/img/imggen.png";
 import projImg1 from "../assets/img/Bibler.png";
 import projImg2 from "../assets/img/Inc.png";
 import projImg3 from "../assets/img/Covid1.png";
@@ -12,6 +13,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "ImgGen",
+      description: "MERN AI Image generation application",
+      imgUrl: projImg6,
+      desc: "Imggen is a MERN stack application that allows users to generate images based on custom input. The application leverages the OpenAI API to generate unique images based on the user's input. Users can interact with Imggen through a user-friendly web interface, which provides options for customizing the image generation process. Users can enter text or choose from a set of predetermined options to create their desired image. Once the user submits their input, Imggen uses the OpenAI API to generate an image that matches the input."
+    },
 
     {
       title: "Seochu",
