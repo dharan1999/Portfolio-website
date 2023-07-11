@@ -47,7 +47,7 @@ export const Experience = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2> {"<Experience />"}</h2>
-                <p><b>1.5 years </b>in software development with a strong foundation in web dev, software dev, and big data.<p> From concept to delivery, I can be your <b>Software Development Partner.</b></p></p>
+                <p><b>2 years </b>in software development with a strong foundation in web dev, software dev, and big data.<p> From concept to delivery, I can be your <b>Software Development Partner.</b></p></p>
                 <Row>
                         {
                           projects.map((project, index) => {
