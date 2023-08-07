@@ -13,18 +13,18 @@ export const Experience = () => {
   const projects = [
     {
       title: "OnePrism",
-      description: "Full Stack Developer",
+      description: "Jr. Full Stack Developer",
       imgUrl: projImg1,
       companyName: "ONEPRISM",
-      period: "Sept 2020 - July 2021",
-      desc: "Made a holistic web app named VedicSeer based on the requirements gathered from a U.S client, using React.js, PHP and MySQL which can predict meaningful insights and generate reports for users based on dynamically entered user inputs, that could handle concurrent users.", 
+      period: "April 2019 - July 2021",
+      desc: "Developed an Astrology web app with React.js, PHP, and MySQL for personalized insights, managed incidents for system stability, crafted a dynamic social media platform using HTML, CSS, JavaScript, PHP, and MySQL, extended RESTful API, optimized deployment via Docker, integrated backend/frontend seamlessly, and resolved 100+ bugs for enhanced system robustness.", 
     },
     {
       title: "Charusat University",
       description: "Machine Learning Intern",
       imgUrl: projImg2,
       companyName: "CHARUSAT UNIVERSITY",
-      period: "June 2020 - Aug 2020",
+      period: "Dec 2018 - Feb 2019",
       desc: "Created an Email SPAM-HAM detector and explored 5 different classifiers generated through techniques like TF-IDF, MultinomialDB, ANN,RNN and LR-SVM."
     },
     {
@@ -32,7 +32,7 @@ export const Experience = () => {
       description: "Web Developer / SEO expert / Digital Marketer",
       imgUrl: projImg3,
       companyName: "LOVEMYSKOOL",
-      period: "June 2019 - Oct 2019",
+      period: "June 2018 - Oct 2018",
       desc:"Redesigned the front end of the website and did its search engine optimization, along with writing blogs, creating graphics and running paid social media campaigns."
     },
 
