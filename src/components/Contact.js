@@ -60,7 +60,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>{"<About me />"}</h2>
-                <h8>As a highly motivated Masters' student in Computer Science, I am driven to use my technical expertise to create meaningful change in society. My journey began with a deep determination to learn coding right after high school, and despite initial setbacks, I have honed my skills in web app and software design, becoming proficient in a wide range of programming languages and frameworks, including HTML, CSS, Javascript, React.js, Express.js, Mongodb, Apache Spark, React Native, Java, Python, C++. In addition to that, I always a keen interest working in projects revolving around Machine Learning, Natural language Processing, 
+                <h8>As a highly motivated Masters' student in Computer Science, I am driven to use my technical expertise to create meaningful change in society. My journey began with a deep determination to learn coding right after high school, and despite initial setbacks, I have honed my skills in web app and software design, becoming proficient in a wide range of programming languages and frameworks, including HTML, CSS, Javascript, React.js, Express.js, Node.js, Mongodb, Apache Spark, React Native, Java, Python, C++. In addition to that, I always a keen interest working in projects revolving around Machine Learning, Natural language Processing, 
 
 <br />
 <br />

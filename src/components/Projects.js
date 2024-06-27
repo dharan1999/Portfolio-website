@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg6 from "../assets/img/imggen.png";
 import projImg1 from "../assets/img/Bibler.png";
 import projImg2 from "../assets/img/Inc.png";
-import projImg3 from "../assets/img/Covid1.png";
+import projImg3 from "../assets/img/Novamed.png";
 import projImg4 from "../assets/img/Remi.png";
 import projImg5 from "../assets/img/Seochu.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -13,6 +13,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Novamed",
+      description: "MERN Stack Hospital Management System",
+      imgUrl: projImg3,
+      desc: "Novamed is a comprehensive hospital management system made using MERN stack. The application allows for secure user authentication and provides an intuitive interface for browsing medical departments and booking doctor appointments. Additionally, it includes a robust admin dashboard for managing hospital operations efficiently. This project leverages modern web technologies to enhance user experience and streamline hospital workflows."
+    },
     {
       title: "ImgGen",
       description: "MERN AI Image generation application",
@@ -26,7 +32,12 @@ export const Projects = () => {
       imgUrl: projImg5,
       desc: "SEOCHU is a dynamic NLP powered web service which revamp your website’s SEO by crawling through your website pages individually, offering keyword suggestions and backlink recommendations to help your website reach new heights in SEO ranking."
     },
- 
+    {
+      title: "Reminiscence",
+      description: "MERN Stack",
+      imgUrl: projImg4,
+      desc: "Reminiscence is a MERN stack application that encourages users to share and relive their memorable life events.",
+    },
     {
       title: "Inception",
       description: "Social Media platform for startup aspirants and investors",
@@ -39,18 +50,13 @@ export const Projects = () => {
       imgUrl: projImg1,
       desc: "Bibler, a React Native-based cross-platform mobile application, empowers users to navigate the library and easily locate their desired books. With its availability check feature, Bibler informs users whether the book is present in the library or not, and even guides them to its location. Additionally, if the book is not available at the moment, Bibler displays the expected date of arrival, making it an all-in-one solution for book search and library navigation."
     },
-    {
-      title: "Reminiscence",
-      description: "MERN Stack",
-      imgUrl: projImg4,
-      desc: "Reminiscence is a MERN stack application that encourages users to share and relive their memorable life events.",
-    },
-    {
-      title: "Covid Fighters",
-      description: "React.js first mini project",
-      imgUrl: projImg3,
-      desc: "I was intrigued by the React library and decided to learn it out of sheer curiosity. What started as a fun experiment turned into an exciting journey of discovery. To showcase my newly acquired skills, I created a Covid-19 web app that displays global and country-wise data on the number of patients fighting the virus. The app features interactive data visualizations that provide clear and concise statistics."
-    },
+   
+    // {
+    //   title: "Covid Fighters",
+    //   description: "React.js first mini project",
+    //   imgUrl: projImg3,
+    //   desc: "I was intrigued by the React library and decided to learn it out of sheer curiosity. What started as a fun experiment turned into an exciting journey of discovery. To showcase my newly acquired skills, I created a Covid-19 web app that displays global and country-wise data on the number of patients fighting the virus. The app features interactive data visualizations that provide clear and concise statistics."
+    // },
   ];
 
   return (

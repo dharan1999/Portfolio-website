@@ -17,7 +17,7 @@ const Hero = (props) => (
           DHARAN THAKER 
       </SectionTitle>
       <SectionText>
-      I am a Software Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
+      I am a Fullstack Developer, and apart from building beautiful web apps I love music <FaMusic /> , volleyball <GiVolleyballBall/> and trading <BsGraphUp/> .
       </SectionText>
 
       <Button onClick= { () => window.location = 'https://drive.google.com/file/d/1DL9Nq93UaDue3G5dPUIx2Go8G5VXXU-I/view?usp=sharing'}>

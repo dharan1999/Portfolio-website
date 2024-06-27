@@ -17,7 +17,7 @@ export const Experience = () => {
       imgUrl: projImg1,
       companyName: "ONEPRISM",
       period: "June 2018 - July 2021",
-      desc: "Crafted a personalized Astrology web app using React.js and PHP, tailoring insights for users.Managed incidents and ensured system stability for the Astrology app, handling production challenges adeptly.Engineered a dynamic social platform for startups, enabling direct investor engagement through HTML, CSS, JavaScript, and PHP.", 
+      desc: "As a Jr. Full Stack Developer at OnePrism, I developed a hospital management system, a personalized astrology web app, and a dynamic social platform for startups using the MERN stack, PHP, HTML, CSS, and JavaScript. I collaborated with UX designers, managed system stability, and optimized deployment efficiency through Docker, ensuring seamless integration and a superior user experience.", 
     },
     {
       title: "Charusat University",
